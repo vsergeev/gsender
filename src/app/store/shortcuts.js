@@ -697,6 +697,18 @@ export const shortcuts = [
         isActive: true,
         category: GENERAL_CATEGORY,
     },
+    { // Cycle Start
+        id: 71,
+        title: 'Cycle Start',
+        keys: '',
+        cmd: 'CONTROLLER_COMMAND',
+        payload: {
+            command: 'cyclestart'
+        },
+        preventDefault: false,
+        isActive: true,
+        category: GENERAL_CATEGORY,
+    },
     { // Toggle Shortcuts
         id: 63,
         title: 'Toggle Shortcuts',
